@@ -5,10 +5,6 @@ const assertEqual = function(actual, expected) {
     console.log(`\u{1f6d1}\u{1f6d1}\u{1f6d1} Assertion Failed : ${actual} !== ${expected}`);
   }
 };
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual("Bootcamp", "Bootcamp");
-assertEqual(1, 1);
-assertEqual(5, 7);
 
 // allItems: an array of strings that we need to look through
 // itemsToCount: an object specifying what to count
@@ -40,7 +36,7 @@ const firstNames = [
   "Fang",
   "Joe"
 ];
-
+module.exports = countOnly;
 const result1 = countOnly(firstNames, { "Jason": true, "Karima": true, "Fang": true, "Agouhanna": false });
 
 assertEqual(result1["Jason"], 1);

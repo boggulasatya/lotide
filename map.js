@@ -68,7 +68,7 @@ const age = ['40', '35'];
 const output = map(people, getHeight);
 
 assertArraysEqual(output, age);
-
+module.exports = map;
 
 
 

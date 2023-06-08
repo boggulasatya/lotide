@@ -39,7 +39,7 @@ const eqArrays = function(a1, a2) {
     }
 return output;
  };
-
+ module.exports = flatten;
  console.log(flatten([2, 4,[1, 2],5, [6,7]]));
  console.log(flatten([1, 2, [3, 4], 5, [6]]));
  console.log(flatten([1, ['hi']]));

@@ -34,7 +34,7 @@ const assertObjectsEqual = function(actual, expected) {
     console.log(`\u{1f6d1}\u{1f6d1}\u{1f6d1} Assertion Failed : ${inspect(actual)} !== ${inspect(expected)}`);
   }
 };
-
+module.exports = assertObjectsEqual;
 
 const shirtObject = { color: "red", size: "medium" };
 const anotherShirtObject = { size: "medium", color: "red" };

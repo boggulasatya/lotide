@@ -25,7 +25,7 @@ const output = findKey({
   "Akelarre":  { stars: 3 }
 }, x => x.stars === 2) // => "noma"
 
-
+module.exports = findKey;
 
 assertEqual(output, "noma");
 assertEqual(output, "Blue Hill");

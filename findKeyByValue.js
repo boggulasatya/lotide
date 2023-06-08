@@ -31,6 +31,7 @@ const cityByProvince = {
   alberta: "Calgary",
   BC: "Victoria"
 };
+module.exports = findKeyByValue;
 assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
 assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
 assertEqual(findKeyByValue(bestTVShowsByGenre, "The Expanse"), "drama");
