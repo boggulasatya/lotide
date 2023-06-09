@@ -10,7 +10,7 @@ const eqObjects = function(object1, object2) {
   }
 
 
-  //comparing values are objects are not//
+  //comparing values are objects are equal or not//
 
   for (let key of keys1) {
     const value1 = object1[key];
@@ -43,5 +43,5 @@ assertObjectsEqual(shirtObject , anotherShirtObject); // => true
 
 const multiColorShirtObject = { colors: ["red", "blue"], size: "medium" };
 const anotherMultiColorShirtObject = { size: "medium", colors: ["red", "blue"] };
-assertObjectsEqual(multiColorShirtObject  , anotherMultiColorShirtObject);
+assertObjectsEqual(multiColorShirtObject, anotherMultiColorShirtObject);
 
