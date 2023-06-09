@@ -19,15 +19,6 @@ const eqArrays = function(A1, A2) {
 };
 
 
-assertArraysEqual([1, 2, 3], [1, 2, 3]);
-assertArraysEqual([1, 2, 3], [3, 2, 1]);
-assertArraysEqual(["1", "2", "3"], ["1", "2", "3"]);
-assertArraysEqual(["1", "2", "3"], ["1", "2", "hi"]);
-
-
-
-
-
 const words = ["ground", "control", "to", "major", "tom"];
 const map = function(array, callback) {
   const results = [];
