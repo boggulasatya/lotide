@@ -28,7 +28,14 @@ const countLetters = function(str) {
   }
   return letterCount;
 };
+ const result = countLetters("lighthouse in the house");
+let output = '{\n';
+for(let key in result) {
+  output += `  ${key}: ${result[key]},\n`;
+}
+output += '}';
+
 module.exports = countLetters;
-console.log(countLetters("lighthouse in the house"));
+console.log(output);
 assertEqual(countLetters("light house") ["e"], 3);
 assertEqual(countLetters("Hello World")["l"], 3);
