@@ -1,5 +1,5 @@
 {
-  "name": "ls",
+  "name": "@bsatya/lotide",
   "version": "1.0.0",
   "main": "assertArraysEqual.js",
   "directories": {
@@ -8,10 +8,10 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "Satyavathi Boggula",
   "license": "ISC",
   "keywords": [],
-  "description": "",
+  "description": "Lotide: A lightweight Javascript utility library created by Satyavathi Boggula",
   "devDependencies": {
     "chai": "^4.3.7",
     "mocha": "^9.2.2"
